@@ -1,0 +1,29 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+#bang {
+    width: 480px;
+    background-color: #ccffcc;
+    border: 2px solid #339933;
+    border-collapse: collapse;
+}
+
+#bang th, #bang td {
+    border: 2px solid #339933;
+    padding: 3px 5px;
+}
+
+.tieude {
+    background-color: #99e699;
+    font-size: 18px;
+}
+
+.giua {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 90%;
+}

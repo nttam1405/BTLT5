@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính can chi</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <form onsubmit="return false;">
+        <table id="canchi-bang">
+            <tr>
+                <td colspan="3" class="tieude">TÍNH CAN CHI CỦA NĂM ÂM LỊCH</td>
+            </tr>
+            <tr>
+                <td>Năm dương lịch</td>
+                <td></td>
+                <td>Can chi năm âm lịch</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="nam"></td>
+                <td class="giua"><input type="button" value="--->" onclick="tinhCanChi()"></td>
+                <td><input type="text" id="canchi" readonly></td>
+            </tr>
+        </table>
+    </form>
+    <script src="Scripts/demo.js"></script>
+</body>
+</html>

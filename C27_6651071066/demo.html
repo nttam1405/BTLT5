@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Xóa dòng trong bảng</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <form onsubmit="return false;">
+        <table id="bang">
+            <tr class="tieude">
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Tổng</th>
+                <th>Chức năng</th>
+            </tr>
+            <tr>
+                <td><input type="text" class="sl" value="2" oninput="tinhTong(this)"></td>
+                <td><input type="text" class="dg" value="1000000" oninput="tinhTong(this)"></td>
+                <td><input type="text" class="tong" value="2000000" readonly></td>
+                <td class="giua"><input type="button" value="Xóa" onclick="xoaDong(this)"></td>
+            </tr>
+            <tr>
+                <td><input type="text" class="sl" value="1" oninput="tinhTong(this)"></td>
+                <td><input type="text" class="dg" value="500000" oninput="tinhTong(this)"></td>
+                <td><input type="text" class="tong" value="500000" readonly></td>
+                <td class="giua"><input type="button" value="Xóa" onclick="xoaDong(this)"></td>
+            </tr>
+        </table>
+    </form>
+    <script src="Scripts/demo.js"></script>
+</body>
+</html>

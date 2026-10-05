@@ -1,0 +1,31 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+#canchi-bang {
+    width: 520px;
+    background-color: #ccffff;
+    border: 2px solid #336699;
+    border-collapse: collapse;
+}
+
+#canchi-bang td {
+    padding: 3px 8px;
+}
+
+.tieude {
+    background-color: #ffffcc;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #800000;
+}
+
+.giua {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 95%;
+}

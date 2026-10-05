@@ -1,0 +1,19 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+.khung {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #999;
+    background-color: #f5f5f5;
+}
+
+input[type="text"] {
+    width: 130px;
+}
+
+#ketqua {
+    margin-top: 0;
+}

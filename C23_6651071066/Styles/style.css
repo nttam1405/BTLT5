@@ -1,0 +1,29 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+#bangluong {
+    width: 400px;
+    border: 2px solid #b8860b;
+    border-collapse: collapse;
+    background-color: #ffcc99;
+}
+
+#bangluong td {
+    border: 2px solid #b8860b;
+    padding: 3px 6px;
+}
+
+.nhan {
+    width: 110px;
+    font-weight: bold;
+}
+
+.giua {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 95%;
+}

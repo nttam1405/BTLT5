@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính lương tháng</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <form onsubmit="return false;">
+        <table id="bangluong">
+            <tr>
+                <td class="nhan">Lương</td>
+                <td><input type="text" id="luong" value="1000000"></td>
+            </tr>
+            <tr>
+                <td class="nhan">Hệ số lương</td>
+                <td>
+                    <select id="hesoluong">
+                        <option value="2.34">2.34</option>
+                        <option value="2.67">2.67</option>
+                        <option value="3">3.0</option>
+                        <option value="3.2" selected>3.2</option>
+                        <option value="3.5">3.5</option>
+                        <option value="4">4.0</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="giua">
+                    <input type="button" value="Tính lương tháng" onclick="tinhLuong()">
+                </td>
+            </tr>
+            <tr>
+                <td class="nhan">Lương tháng</td>
+                <td><input type="text" id="luongthang" readonly></td>
+            </tr>
+        </table>
+    </form>
+    <script src="Scripts/demo.js"></script>
+</body>
+</html>

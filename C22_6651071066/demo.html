@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhân và chia hai số</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <form class="khung" onsubmit="return false;">
+        <table>
+            <tr>
+                <td>1st Number :</td>
+                <td><input type="text" id="so1"></td>
+            </tr>
+            <tr>
+                <td>2nd Number :</td>
+                <td><input type="text" id="so2"></td>
+            </tr>
+        </table>
+        <input type="button" value="Multiply" onclick="nhan()">
+        <input type="button" value="Divide" onclick="chia()">
+        <p>The Result Is :</p>
+        <p id="ketqua"></p>
+    </form>
+    <script src="Scripts/demo.js"></script>
+</body>
+</html>

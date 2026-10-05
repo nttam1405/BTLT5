@@ -1,0 +1,25 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+#bangthu {
+    width: 480px;
+    border: 2px solid #800000;
+    border-collapse: collapse;
+    background-color: #ffcccc;
+}
+
+#bangthu td {
+    border: 2px solid #800000;
+    padding: 4px 6px;
+}
+
+.giua {
+    text-align: center;
+}
+
+#ketqua {
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,61 @@
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+}
+
+#thucdon {
+    width: 400px;
+    background-color: #ccff00;
+    border: 2px solid #669900;
+    border-collapse: collapse;
+}
+
+#thucdon td {
+    padding: 3px 6px;
+    vertical-align: top;
+}
+
+.tieude {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #800000;
+}
+
+.nhan td {
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid #669900;
+    border-bottom: 1px solid #669900;
+}
+
+.thoidiem {
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+.giua {
+    text-align: center;
+}
+
+select {
+    width: 120px;
+}
+
+table.kq {
+    width: 100%;
+    background-color: #ccffff;
+    border: 2px solid #800000;
+    border-collapse: collapse;
+}
+
+table.kq th, table.kq td {
+    border: 1px solid #800000;
+    padding: 2px 5px;
+    text-align: left;
+}
+
+table.kq th {
+    text-align: center;
+    color: #000080;
+}
